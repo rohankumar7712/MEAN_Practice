@@ -1,0 +1,37 @@
+Hello Everyone 
+
+In this project i'm create one web page which contain Login & signup page.
+
+For Crateing  this i'm using,
+Frontend: HTML,CSS
+Backend/Server:Node js & Express Js
+Database:MongoDB
+
+Project Structure:
+Style Folder:
+              all CSS file is Available
+
+pages Folder:
+              all html file is availble 
+
+dbconfig Folder:
+              all mongoDB conection code written tn this folder
+
+model folder:
+            create a model User model(user schema..)
+
+.env file:
+          dine a globle variable like port no,& database url
+
+index.js:
+        Root file or entry point of project
+
+Require module:
+
+npm i express,nodemon,dotenv,mongoose
+
+
+
+
+  
+
