@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/style.css">
+    <title>First Website</title>
+    <style>
+        body,ul{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(82, 207, 211);
+  padding: 10px 20px;
+  color: azure;
+
+}
+.navbar .nav-links{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-links li a{
+  text-decoration:  none;
+  color: white;
+  font-size:  1.2rem;
+  transition: color 0.3s;
+}
+.navbar .nav-links li a:hover{
+  color: blue;
+  
+}
+
+.auth{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.auth button{
+  border:  none;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.auth button a{
+  text-decoration: none;
+  color: rgb(82, 207, 211);
+  display: block;
+  font-size: 1rem;
+  display: block; 
+  padding: 10px 20px;
+  text-align: center;
+  line-height: normal;
+}
+
+.auth button:hover{
+  background-color: antiquewhite;
+  transform: scale(1.05);
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links" >
+                <li><a href="/index">Home</a></li>
+                <li><a href="/aboutus">About Us</a></li>
+                <li><a href="/srvices">Service</a></li>
+                <li><a href="/product">Products</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+            <div class="auth">
+    
+                <button><a href="/login">Login</a></button>
+                <button><a href="/signup">SignUp</a></button>
+                
+            </div>
+    
+        </nav>
+
+    </header>
+
+    <main class="body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus assumenda similique! Ipsam dolor veniam odit ullam distinctio eius ea maxime beatae autem!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus assumenda similique! Ipsam dolor veniam odit ullam distinctio eius ea maxime beatae autem!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus assumenda similique! Ipsam dolor veniam odit ullam distinctio eius ea maxime beatae autem!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus assumenda similique! Ipsam dolor veniam odit ullam distinctio eius ea maxime beatae autem!</p>
+    </main>
+    
+    <footer>
+        <nav>
+            <p></p>
+        </nav>
+    </footer>
+
+    
+</body>
+</html>
